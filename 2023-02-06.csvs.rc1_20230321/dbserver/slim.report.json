@@ -9,7 +9,7 @@
   },
   "type": "build",
   "state": "done",
-  "target_reference": "u2126529_csvs2023-db_i:latest",
+  "target_reference": "u2126529/csvs2023-db_i:latest",
   "system": {
     "type": "",
     "release": "",
@@ -21,19 +21,17 @@
   },
   "source_image": {
     "identity": {
-      "id": "sha256:ceab79cec2ca377e670cdfc7883412f2b3e54499076da71023555fb7100a7d12",
+      "id": "sha256:c7232c1fa87f2c30eab5874a1af535d8f985ea2f1009551ced821180d50b2f21",
       "tags": [
-        "1",
         "latest"
       ],
       "names": [
-        "u2126529_csvs2023-db_i:1",
-        "u2126529_csvs2023-db_i:latest"
+        "u2126529/csvs2023-db_i:latest"
       ]
     },
     "size": 400556688,
     "size_human": "401 MB",
-    "create_time": "2023-03-20T23:23:56Z",
+    "create_time": "2023-03-24T16:07:30Z",
     "docker_version": "20.10.19",
     "architecture": "amd64",
     "user": "mysql",
@@ -67,15 +65,15 @@
       "exe_path": ""
     }
   },
-  "minified_image_size": 527335239,
-  "minified_image_size_human": "527 MB",
-  "minified_image": "u2126529_csvs2023-db_i.slim",
+  "minified_image_size": 50045493,
+  "minified_image_size_human": "50 MB",
+  "minified_image": "u2126529/csvs2023-db_i.slim",
   "minified_image_has_data": true,
-  "minified_by": 0.7595864231633495,
-  "artifact_location": "/tmp/slim-state/.slim-state/images/ceab79cec2ca377e670cdfc7883412f2b3e54499076da71023555fb7100a7d12/artifacts",
+  "minified_by": 8.003851375787226,
+  "artifact_location": "/tmp/slim-state/.slim-state/images/c7232c1fa87f2c30eab5874a1af535d8f985ea2f1009551ced821180d50b2f21/artifacts",
   "container_report_name": "creport.json",
-  "seccomp_profile_name": "u2126529_csvs2023-db_i-seccomp.json",
-  "apparmor_profile_name": "u2126529_csvs2023-db_i-apparmor-profile",
+  "seccomp_profile_name": "u2126529-csvs2023-db_i-seccomp.json",
+  "apparmor_profile_name": "u2126529-csvs2023-db_i-apparmor-profile",
   "image_stack": [
     {
       "is_top_image": false,
@@ -481,25 +479,24 @@
     },
     {
       "is_top_image": true,
-      "id": "sha256:ceab79cec2ca377e670cdfc7883412f2b3e54499076da71023555fb7100a7d12",
-      "full_name": "u2126529_csvs2023-db_i:1",
-      "repo_name": "u2126529_csvs2023-db_i",
-      "version_tag": "1",
+      "id": "sha256:c7232c1fa87f2c30eab5874a1af535d8f985ea2f1009551ced821180d50b2f21",
+      "full_name": "u2126529/csvs2023-db_i:latest",
+      "repo_name": "u2126529/csvs2023-db_i",
+      "version_tag": "latest",
       "raw_tags": [
-        "u2126529_csvs2023-db_i:1",
-        "u2126529_csvs2023-db_i:latest"
+        "u2126529/csvs2023-db_i:latest"
       ],
-      "create_time": "2023-03-20T23:23:56Z",
+      "create_time": "2023-03-24T16:07:30Z",
       "new_size": 1256,
       "new_size_human": "1.3 kB",
       "base_image_id": "sha256:4a632f970181546d4d3b8c91fe481fe8220206ee2fd96842b16b7607591de916",
       "instructions": [
         {
           "type": "COPY",
-          "time": "2023-03-19T21:55:36Z",
+          "time": "2023-03-24T16:07:30Z",
           "is_nop": true,
           "local_image_exists": true,
-          "intermediate_image_id": "sha256:1667bdc46aca79bd175e144671a986f2570a531b28ddf1d1a358d82e8db1cb0f",
+          "intermediate_image_id": "sha256:19a91064c77383e66b3433fd1bb82cce4c436090e523455084ba65dba9270fe3",
           "layer_index": 0,
           "size": 1256,
           "size_human": "1.3 kB",
@@ -508,26 +505,26 @@
           "command_all": "COPY file:6082a9689f917e857edea70938ed40b819400457f81a40dd40cc7c0c95b51f1e /mysql/mysql.conf.d/mysqld.cnf",
           "target": "/mysql/mysql.conf.d/mysqld.cnf",
           "source_type": "file",
-          "inst_set_time_bucket": "2023-03-19T21:45:00Z",
+          "inst_set_time_bucket": "2023-03-24T16:00:00Z",
           "inst_set_time_index": 2
         },
         {
           "type": "USER",
-          "time": "2023-03-20T23:23:56Z",
+          "time": "2023-03-24T16:07:30Z",
           "is_nop": true,
           "local_image_exists": true,
-          "intermediate_image_id": "sha256:5180fffba0a2350f44c25a66830c5bf10c9c326a5268165a6a06202ff5039c55",
+          "intermediate_image_id": "sha256:793b8ae5f7c0e908bf0616469ee34086e66450a26e3823ac40996c6f892cb712",
           "layer_index": 0,
           "size": 0,
           "params": "mysql",
           "command_snippet": "USER mysql",
           "command_all": "USER mysql",
-          "inst_set_time_bucket": "2023-03-20T23:15:00Z",
-          "inst_set_time_index": 3
+          "inst_set_time_bucket": "2023-03-24T16:00:00Z",
+          "inst_set_time_index": 2
         },
         {
           "type": "EXPOSE",
-          "time": "2023-03-20T23:23:56Z",
+          "time": "2023-03-24T16:07:30Z",
           "is_last_instruction": true,
           "is_nop": true,
           "local_image_exists": true,
@@ -537,11 +534,10 @@
           "command_snippet": "EXPOSE 3306",
           "command_all": "EXPOSE 3306",
           "raw_tags": [
-            "u2126529_csvs2023-db_i:1",
-            "u2126529_csvs2023-db_i:latest"
+            "u2126529/csvs2023-db_i:latest"
           ],
-          "inst_set_time_bucket": "2023-03-20T23:15:00Z",
-          "inst_set_time_index": 3
+          "inst_set_time_bucket": "2023-03-24T16:00:00Z",
+          "inst_set_time_index": 2
         }
       ]
     }
